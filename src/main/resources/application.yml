@@ -1,0 +1,7 @@
+server:
+  port: 8080
+zuul:
+  routes:
+    user-mgmt:
+      path: /api/**
+      url: https://gururaj-gaurav90.cfapps.io/api
